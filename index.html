@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <div class="main-body">
+
+
+<div class="calc-body">
+
+  <div class="calc-screen">
+    <input id="screen" type="text" name="" value="">
+  </div>
+  <div class="numbers">
+    <div class="numbers1">
+      <button onclick="btnClear()"  type="button" name="button" class="clear-btn">clear</button>
+      <button onclick="btnClick('/')"  type="button" name="button" class="button">/</button>
+    </div>
+    <div class="numbers1">
+      <button onclick="btnClick(7)"  type="button" name="button" class="button">7</button>
+      <button onclick="btnClick(8)"   type="button" name="button" class="button">8</button>
+      <button onclick="btnClick(9)"   type="button" name="button" class="button">9</button>
+      <button onclick="btnClick('*')"   type="button" name="button" class="button">X</button>
+    </div>
+    <div class="numbers1">
+      <button onclick="btnClick(4)"   type="button" name="button" class="button">4</button>
+      <button onclick="btnClick(5)"  type="button" name="button" class="button">5</button>
+      <button onclick="btnClick(6)"  type="button" name="button" class="button">6</button>
+      <button onclick="btnClick('-')"  type="button" name="button" class="button">-</button>
+    </div>
+    <div class="numbers1">
+      <button onclick="btnClick(1)"  type="button" name="button" class="button">1</button>
+      <button onclick="btnClick(2)"  type="button" name="button" class="button">2</button>
+      <button onclick="btnClick(3)"  type="button" name="button" class="button">3</button>
+      <button onclick="btnClick('+')"  type="button" name="button" class="button">+</button>
+    </div>
+    <div class="numbers1">
+      <button onclick="btnClick(0)"   type="button" name="button" class="zero-btn">0</button>
+      <button onclick="btnClick('.')"  type="button" name="button" class="button">.</button>
+      <button onclick="result('=')"  type="button" name="button" class="button">=</button>
+    </div>
+  </div>
+
+<h3> &copy My Calculator</h3>
+</div>
+
+
+    </div>
+
+
+
+<script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

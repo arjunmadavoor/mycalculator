@@ -1,5 +1,5 @@
 body{
-background-color: skyblue;
+background-color: #a6b1e1;
 }
 h3{
   text-align: center;
@@ -7,12 +7,13 @@ h3{
   font-weight: 400;
   padding-top: 30px;
   font-family: sans-serif;
+  color: #fff;
 }
 
 .calc-body{
   width: 700px;
   height: 810px;
-  background: blue;
+  background: #010a43;
   margin-left: 600px;
   margin-top: 65px;
   text-align: center;
@@ -34,6 +35,10 @@ h3{
   margin-right: 20px;
   font-size: 30px;
   font-weight:bold;
+  background-color: #00a8cc;
+}
+.button:hover{
+  background-color: #d7fffd;
 }
 .numbers1{
   padding-top: 30px;
@@ -44,6 +49,10 @@ h3{
   margin-right: 20px;
   font-size: 30px;
   font-weight:bold;
+  background-color: #00a8cc;
+}
+.zero-btn:hover{
+  background-color: #75daad;
 }
 .clear-btn{
   width: 258px;
@@ -51,4 +60,8 @@ h3{
   margin-right: 20px;
   font-size: 30px;
   font-weight:bold;
+  background-color: #00a8cc;
+}
+.clear-btn:hover{
+  background-color: #75daad;
 }

@@ -1,5 +1,6 @@
 body{
-background-color: #a6b1e1;
+background-color: #a6b1e1 !important;
+margin: 0;
 }
 h3{
   text-align: center;
@@ -9,7 +10,9 @@ h3{
   font-family: sans-serif;
   color: #fff;
 }
-
+.main-body{
+  background-color: #a6b1e1;
+}
 .calc-body{
   width: 700px;
   height: 810px;
@@ -18,8 +21,13 @@ h3{
   margin-top: 65px;
   text-align: center;
 }
+.container-fluid{
+max-width: 700px;
+margin: 65px;
+max-height: 100%;
+}
 #screen{
-  width: 500px;
+  width: 430px;
   height: 110px;
   margin-top: 60px;
   margin-bottom: 50px;
@@ -64,4 +72,12 @@ h3{
 }
 .clear-btn:hover{
   background-color: #75daad;
+}
+
+
+@media (max-width:714px) {
+#screen{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
 }
